@@ -1,0 +1,11 @@
+# Ignore nothing in this project - we want to track all files
+
+# But ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo

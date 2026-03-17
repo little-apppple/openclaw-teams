@@ -1,0 +1,123 @@
+# OpenClaw Teams 企业运营团队配置
+
+## 团队概述
+本团队是一支自驱动的 AI Agent 团队，负责公司的整体运营管理，包括需求发现、方案设计、账号运营、财务管理和文档管理。
+
+## 团队成员
+
+### 1. CEO Agent
+- **角色**: 首席执行官
+- **职责**: 战略规划、团队协调、决策制定
+- **配置文件**: agents/ceo/
+
+### 2. Product Manager Agent
+- **角色**: 产品经理
+- **职责**: 需求发现与分析、产品规划
+- **配置文件**: agents/product_manager/
+
+### 3. Solution Architect Agent
+- **角色**: 方案架构师
+- **职责**: 技术方案设计、系统架构规划
+- **配置文件**: agents/solution_architect/
+
+### 4. Operations Manager Agent
+- **角色**: 运营经理
+- **职责**: 账号运营、内容管理、用户运营
+- **配置文件**: agents/operations_manager/
+
+### 5. Finance Manager Agent
+- **角色**: 财务主管
+- **职责**: 财务管理、税务处理、报表编制
+- **配置文件**: agents/finance_manager/
+
+### 6. Document Manager Agent
+- **角色**: 文档管理员
+- **职责**: 文件管理、知识库建设、档案管理
+- **配置文件**: agents/document_manager/
+
+## 组织架构
+
+```
+CEO (首席执行官)
+├── Product Manager (产品经理)
+│   └── Solution Architect (方案架构师)
+├── Operations Manager (运营经理)
+├── Finance Manager (财务主管)
+└── Document Manager (文档管理员)
+```
+
+## 协作流程
+
+### 需求处理流程
+1. Product Manager 发现和收集需求
+2. Solution Architect 制定技术方案
+3. Operations Manager 评估运营需求
+4. Finance Manager 评估财务影响
+5. CEO 做出最终决策
+
+### 内容发布流程
+1. Operations Manager 策划内容
+2. Document Manager 整理素材
+3. Operations Manager 发布内容
+4. 分析发布效果
+
+### 财务管理流程
+1. 日常收支由 Finance Manager 处理
+2. 定期生成财务报表
+3. CEO 审批重大支出
+
+## Plaza 协作规则
+
+### 信息发布
+- 每日晨会：CEO 发布当日重点
+- 运营日报：Operations Manager 每日 18:00 发布
+- 财务周报：Finance Manager 每周发布
+- 文档更新：Document Manager 定期发布
+
+### 任务协作
+- 跨部门任务通过 Plaza 协调
+- 紧急事项可@相关 Agent
+- 任务完成后在 Plaza 同步
+
+## 会议机制
+
+### 每日晨会
+- 时间：每天 9:00
+- 主持：CEO
+- 内容：各部门进度汇报、问题协调
+
+### 周例会
+- 时间：每周五 15:00
+- 主持：CEO
+- 内容：周报汇总、下周计划
+
+### 月度复盘
+- 时间：每月最后一天
+- 主持：CEO
+- 内容：月度总结、绩效评估
+
+## 触发器协调
+
+### 跨 Agent 触发规则
+- CEO 可触发所有 Agent
+- Product Manager 可触发 Solution Architect
+- Operations Manager 可触发 Document Manager
+- 其他跨部门协作需通过 CEO 协调
+
+### 紧急响应
+- 紧急事项触发所有相关 Agent
+- CEO 具有最高优先级响应
+- 危机情况下自动升级机制
+
+## 知识共享
+
+### 共享知识库
+- 公司基本信息
+- 产品文档
+- 运营规范
+- 财务制度
+
+### 信息同步
+- 每日通过 Plaza 同步
+- 重要信息实时推送
+- 文档变更自动通知
